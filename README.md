@@ -100,6 +100,8 @@ earthquake-analysis/
 ├── requirements.txt
 └── README.md
 
+---
+
 ## 6. Limitations & Future Work
 
 Fixed distance assumption: using a constant 50 km can misestimate PGA for near-field events.
