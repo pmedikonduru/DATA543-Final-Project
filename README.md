@@ -78,7 +78,23 @@ Implemented in `scripts/risk_modeling.py`:
 
 ---
 
-## 5. Directory Structure  
+## 5. Limitations & Future Work
+
+Fixed distance assumption: using a constant 50 km can misestimate PGA for near-field events.
+Lookup-based buffers: refine with ShakeMap or spectral gridding.
+Geographic scope: extend parcel analyses beyond Orange County.
+Scoring granularity: incorporate building codes, occupancy, and soil amplification.
+Scenario modeling: add hazard simulations and temporal analyses.
+
+## 6. References
+
+1) USGS, Earthquake Hazards Program. The Modified Mercalli Intensity Scale. U.S. Geological Survey.
+https://www.usgs.gov/programs/earthquake-hazards/modified-mercalli-intensity-scale
+2) Atkinson, G. M. & Kaka, S. I. (2007). Relationships between Felt Intensity and Instrumental Ground Motion in the Central United States and California. Bulletin of the Seismological Society of America, 97(2): 497–510. https://doi.org/10.1785/0120060154
+3) Boore, D. M. & Atkinson, G. M. (2008). Ground‑Motion Prediction Equations for the Average Horizontal Component of PGA, PGV, and 5%-Damped PSA at Spectral Periods between 0.01 and 10.0 s. Bulletin of the Seismological Society of America, 98(3): 1121–1138.
+4) Wald, D. J., Quitoriano, V., Heaton, T. H. & Kanamori, H. (1999). Relationships between Peak Ground Acceleration, Peak Ground Velocity, and Modified Mercalli Intensity in California. Earthquake Spectra, 15(3): 557–584.
+---
+## 7. Directory Structure  
 ```bash
 earthquake-analysis/
 ├── data/
@@ -101,19 +117,3 @@ earthquake-analysis/
 └── README.md
 
 ---
-
-## 6. Limitations & Future Work
-
-Fixed distance assumption: using a constant 50 km can misestimate PGA for near-field events.
-Lookup-based buffers: refine with ShakeMap or spectral gridding.
-Geographic scope: extend parcel analyses beyond Orange County.
-Scoring granularity: incorporate building codes, occupancy, and soil amplification.
-Scenario modeling: add hazard simulations and temporal analyses.
-
-## 7. References
-
-1) USGS, Earthquake Hazards Program. The Modified Mercalli Intensity Scale. U.S. Geological Survey.
-https://www.usgs.gov/programs/earthquake-hazards/modified-mercalli-intensity-scale
-2) Atkinson, G. M. & Kaka, S. I. (2007). Relationships between Felt Intensity and Instrumental Ground Motion in the Central United States and California. Bulletin of the Seismological Society of America, 97(2): 497–510. https://doi.org/10.1785/0120060154
-3) Boore, D. M. & Atkinson, G. M. (2008). Ground‑Motion Prediction Equations for the Average Horizontal Component of PGA, PGV, and 5%-Damped PSA at Spectral Periods between 0.01 and 10.0 s. Bulletin of the Seismological Society of America, 98(3): 1121–1138.
-4) Wald, D. J., Quitoriano, V., Heaton, T. H. & Kanamori, H. (1999). Relationships between Peak Ground Acceleration, Peak Ground Velocity, and Modified Mercalli Intensity in California. Earthquake Spectra, 15(3): 557–584.
