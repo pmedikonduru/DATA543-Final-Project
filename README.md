@@ -15,8 +15,6 @@ Earthquakes threaten built environments, yet epicenter plots alone do not convey
 5. **Score vulnerability**: assign base‑year and improvement‑value risk scores, plus fault‑proximity intersections.  
 6. **Model exposure-risk relationships**: use linear and polynomial regression to quantify how seismic exposure correlates with structural vulnerability.
 
-This workflow replaces a static report with a fully reproducible code base and rich visual outputs.
-
 ---
 
 ## 2. Data Sources & Preprocessing  
