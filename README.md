@@ -1,5 +1,4 @@
 # Earthquake Impact & Vulnerability Analysis  
-_An End-to-End, Reproducible Workflow_
 
 ## Abstract  
 This project delivers a comprehensive analysis pipeline—from raw earthquake catalogs through felt‑shaking estimation, spatial buffering, building vulnerability scoring, and statistical modeling—providing interactive and static outputs for planners, insurers, and researchers.
