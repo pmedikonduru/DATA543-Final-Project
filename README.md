@@ -106,11 +106,9 @@ earthquake-analysis/
 │   ├── parcel_with_earthquake_scores.csv
 │   └── earthquake_mmi_buffer_map.png
 ├── scripts/
-│   ├── map_quakes.py
-│   ├── compute_intensity.py
-│   ├── buffer_and_plot.py
-│   └── risk_modeling.py
-├── requirements.txt
+│   ├── data543.ipynb
+│   ├── DATA_543_project.ipynb
+|
 └── README.md
 
 ---
