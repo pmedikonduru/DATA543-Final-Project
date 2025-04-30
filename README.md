@@ -102,9 +102,6 @@ earthquake-analysis/
 │   ├── earthquake_locations.html
 │   ├── earthquake_heatmap.html
 │   ├── earthquake_cluster_map.html
-│   ├── Processed_Earthquake_Data.csv
-│   ├── parcel_with_earthquake_scores.csv
-│   └── earthquake_mmi_buffer_map.png
 ├── scripts/
 │   ├── data543.ipynb
 │   ├── DATA_543_project.ipynb
